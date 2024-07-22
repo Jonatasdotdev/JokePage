@@ -1,0 +1,55 @@
+body{
+    background-image: url(Sem\ título.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color:aliceblue;
+    font-family: "Handjet"
+    
+}
+p{
+    font-family:"Handjet";
+    font-weight: 400;
+    font-size: large;
+    background:black;
+
+    color:white;
+    border-style:solid;
+    border-width:5px;
+    border-top-color: blueviolet;
+    border-bottom-color:blue;
+    border-right-color:pink;
+    border-left-color:rgb(77, 77, 182);
+    border-radius:4px;
+    padding:5px;
+    
+}
+#caixa1{
+    width:200px;
+    height: auto;
+    background-image: url(lonely.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    text-align: center;
+    font-family:"Handjet";
+    border-style:solid;
+    border-width:5px;
+    border-top-color: blueviolet;
+    border-bottom-color:blue;
+    border-right-color:pink;
+    border-left-color:rgb(77, 77, 182);
+    border-radius:7px;
+    padding:5px;
+    animation:slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+    from{margin-left:80%;}
+    to{margin-left:0%;} 
+}
